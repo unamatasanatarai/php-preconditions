@@ -1,0 +1,33 @@
+{
+    "name": "unamatasanatarai/php-preconditions",
+    "type": "library",
+    "description": "Hash me like with dropbox",
+    "homepage": "https://github.com/unamatasanatarai/php-preconditions",
+    "keywords": ["laravel5","hashing"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unamata Sanatarai",
+            "email": "unamatasanatarai@gmail.com",
+            "homepage": "https://github.com/unamatasanatarai/",
+            "role": "Main Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Unamatasanatarai/Preconditions/ServiceProvider.php"
+        ],
+        "psr-4": {
+            "Unamatasanatarai\\Preconditions\\": "src/Unamatasanatarai/Preconditions"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
