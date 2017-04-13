@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/unamatasanatarai/php-preconditions.svg?branch=master)](https://travis-ci.org/unamatasanatarai/php-preconditions)
+
 # php-preconditions
 think: Exception Driven Design 
 
